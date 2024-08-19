@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="crianca.css">
+    <title>Área Criança</title>
+</head>
+<body>
+    <header class="header">
+        <div class="menu">
+            <button class="menu-btn">&#9776;</button> 
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Pesquisar...">
+            <button class="search-btn">&#128269;</button> 
+        </div>
+        <div class="notifications">
+            <button class="notifications-btn">&#128276;</button> 
+        </div>
+    </header>
+    
+    <!-- Menu  -->
+    <div class="side-menu" id="sideMenu">
+        <button class="close-btn" id="closeBtn">&times;</button>
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#topico3">Seu Perfil</a></li>
+            <p>-----------------------------------</p>
+            <li><a href="#topico1">Ver Rotina</a></li>
+            <li><a href="#topico3">Meus Jogos</a></li>
+            <li><a href="#topico3">IA</a></li>
+            <li><a href="#topico3">Configurações</a></li>
+        </ul>
+    </div>
+
+     <!-- Botão Troca de conta  -->
+    <div class="button-container">
+        <a href="pais.html" class="round-button">Modo Pai</a>
+    </div>
+
+<!-- Rotina  -->
+    <h1>Rotina</h1>
+    <div class="rotina">
+        <div class="task">
+            <div class="task-details">
+                <span class="time">08:00 - 09:00</span>
+                <p>Exemplo de tarefa 1</p>
+            </div>
+            <input type="checkbox" onclick="toggleTask(this)">
+        </div>
+        <div class="task">
+            <div class="task-details">
+                <span class="time">09:30 - 10:30</span>
+                <p>Exemplo de tarefa 2</p>
+            </div>
+            <input type="checkbox" onclick="toggleTask(this)">
+        </div>
+    </div>
+ <!-- Jogos  -->
+    <h1>Meus Jogos</h1>
+    <div class="carousel">
+        <button class="prev">❮</button>
+        <div class="carousel-container">
+            <div class="carousel-items">
+                <div class="item">
+                    <p>Jogo 1</p>
+                    <button class="item-button">Jogar</button>
+                </div>
+                <div class="item">
+                    <p>Jogo 2</p>
+                    <button class="item-button">Jogar</button>
+                </div>
+                <div class="item">
+                    <p>Jogo 3</p>
+                    <button class="item-button">Jogar</button>
+                </div>
+                <div class="item">
+                    <p>Jogo 4</p>
+                    <button class="item-button">Jogar</button>
+                </div>
+                <div class="item">
+                    <p>Jogo 5</p>
+                    <button class="item-button">Jogar</button>
+                </div>
+                <div class="item">
+                    <p>Jogo 6</p>
+                    <button class="item-button">Jogar</button>
+                </div>
+            </div>
+        </div>
+        <button class="next">❯</button>
+    </div>
+
+    <!-- Inteligência Artificial  -->
+    <h1>IA</h1>
+
+
+    <script src="crianca.js"></script>
+</body>
+</html>
