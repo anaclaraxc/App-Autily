@@ -125,3 +125,52 @@ ul li a {
 h1{
     text-align: center;
 }
+
+.rotina {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.task-details {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    font-weight: bold;
+    color: #555;
+    margin-right: 15px;
+}
+
+p {
+    margin: 0;
+}
+
+input[type="checkbox"] {
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.task.completed p {
+    text-decoration: line-through;
+    color: #6c757d;
+}
